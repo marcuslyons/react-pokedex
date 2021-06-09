@@ -17,7 +17,7 @@ function App() {
           <section>
             <Switch>
               <Route exact path="/">
-                <ul style={{ listStyle: "none" }}>
+                <ul className="App-list">
                   <Pokemons />
                 </ul>
               </Route>

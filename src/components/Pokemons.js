@@ -29,7 +29,7 @@ function Pokemons() {
   }, []);
 
   return (
-    <div>
+    <>
       {pokemon
         ? pokemon.map((item, index) => {
             return (
@@ -42,7 +42,7 @@ function Pokemons() {
             );
           })
         : null}
-    </div>
+    </>
   );
 }
 

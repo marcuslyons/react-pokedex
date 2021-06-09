@@ -11,7 +11,7 @@ function App() {
       <div className="App">
         <main>
           <header>
-            <h1>Welcome to the Pokedex!</h1>
+            <h1>Welcome!</h1>
             <p>View the original 151 Pokemon below:</p>
           </header>
           <section>
